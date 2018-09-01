@@ -1,4 +1,4 @@
-#Fundamentos de Prpgramacion
+#Fundamentos de Programacion
 
 ## Portafolio de Evidencias de trabajo
 
