@@ -59,7 +59,8 @@
     <form>
         <div>
             <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre"/>
+            <input type="text" id="nombre" maxlength="10"
+            maxlength="10" size="50"/>
         </div>
         <div>
             <label for="email">Email:</label>
@@ -69,6 +70,15 @@
             <label for="comentarios">Comentarios</label>
             <textarea id="comentarios"></textarea>
         </div>
+        <div>
+            <div>
+                <label for="clave">Contraseña</label>
+                <input type="password" id="clave"/>
+        </div>
+        <div>
+            <label for="color">Elige un color</label>
+            <input type="color" id="color"/>
+        </div>    
         <div>
             <button id="enviar">Enviar</button>
         </div>
