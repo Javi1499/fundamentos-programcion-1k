@@ -1,0 +1,24 @@
+p,h1,li { /* Selector */ comentario 
+    color: red;
+    width: 500px;
+    border: 2px solid black;
+}
+#niveles { /* selector de identidad */
+    background-color: gold;
+    font-family: 'Ruslan Display', cursive;
+}
+
+.sin-borde{ /* selector de clase (class)*/
+    color: orange;
+    background-color: greenyellow;
+    border: 0px;    
+}
+
+#niveles:hover { /* Selector de pseudo-clase*/
+    background-color: blueviolet;
+    color: black;
+}
+
+label[for] {
+    color: tomato;
+}
